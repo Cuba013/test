@@ -1,0 +1,43 @@
+$default: #424656;
+$def_hover: #262A3A;
+$mts: #e30613;
+$background: #F7F9FF;
+$back-blue: #4F93FE;
+$back-blue-2: #0751C6;
+$white: #F7F9FF;
+
+%roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  %roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  %roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  %roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  %roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  %roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+  }

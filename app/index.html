@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keepclean</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__box-logo">
+                <a href="#" class="nav__logo">
+                    <svg class="svg-logo-dims">
+                        <use xlink:href="../images/sprite.svg#logo"></use>
+                    </svg>
+                </a>
+    
+                <a href="tel:+375295954821" class="nav__phone">
+                    <svg class="svg-mts-dims">
+                        <use xlink:href="../images/sprite.svg#mts"></use>
+                    </svg>
+                    <span>+375 29 595 48 21</span>
+                </a>
+            </div>    
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#" class="nav__link">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">Мойка окон и остеклений</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">Мойка витрин и вывесок</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">Контакты</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <svg class="svg-close-dims">
+                        <use xlink:href="../images/sprite.svg#close"></use>
+                    </svg>
+                </div>
+            </div>
+
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <svg class="svg-toggle-dims">
+                    <use xlink:href="../images/sprite.svg#toggle"></use>
+                </svg>
+            </div>
+        </nav>
+    </header>
+        
+    <main class="main">
+        <section class="home">
+            <div class="home__swiper swiper">
+                <div class="swiper-wrapper swiper-no-swiping">
+                    <article class="home__article brush__windows swiper-slide">
+                        <div class="home__panel-1"></div>
+                        <div class="home__panel-2"></div>
+    
+                        <div class="home__cotent container">
+                            <div class="home__data">
+                                <div class="home__titles">
+                                    <h1 class="home__title">позвони нам!</h1>
+                                    <h3 class="home__subtitle">Когда нужна мойка<br>окон и остеклений.</h3>
+                                </div>
+                                <div class="home__image">
+                                    <img src="../images/brush.png" alt="image" class="home__brush">
+                                    <img src="../images/img_home.png" alt="image" class="home__img">
+                                </div>
+                            </div>
+                            <div class="home__info">
+                                <a id="banner-more" class="learn-more">
+                                    <span class="circle" aria-hidden="true">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                   <span class="btn-text">Подробнее</span>
+                                </a>
+                            </div>
+                        </div>                        
+                    </article>
+                    <article class="home__article wash__windows swiper-slide">
+                        <div class="home__panel-1"></div>
+                        <div class="home__panel-2"></div>
+    
+                        <div class="home__cotent container">
+                            <div class="home__data">
+                                <div class="home__titles">
+                                    <h1 class="home__title">позвони нам!</h1>
+                                    <h3 class="home__subtitle">Когда нужна мойка<br>витрин и вывесок.</h3>
+                                </div>
+                                <div class="home__image">
+                                    <img src="../images/brush.png" alt="image" class="home__brush">
+                                    <img src="../images/img_home.png" alt="image" class="home__img">
+                                </div>
+                            </div>
+                            <div class="home__info">
+                                <a id="banner-more" class="learn-more">
+                                    <span class="circle" aria-hidden="true">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                   <span class="btn-text">Подробнее</span>
+                                </a>
+                            </div>
+                        </div>                        
+                    </article>
+                </div>
+            
+            
+                <div class="home__interaction">
+                <div class="home__social">
+                    <a href="#" target="_blank" class="home__social-link">
+                        <svg class="home__social-svg svg-instagram-dims">
+                            <use xlink:href="../images/sprite.svg#instagram"></use>
+                        </svg>
+                    </a>
+                    <a href="#" target="_blank" class="home__social-link">
+                        <svg class="home__social-svg svg-telegram-dims">
+                            <use xlink:href="../images/sprite.svg#telegram"></use>
+                        </svg>
+                    </a>
+                    <a href="#" target="_blank" class="home__social-link">
+                        <svg class="home__social-svg svg-viber-dims">
+                            <use xlink:href="../images/sprite.svg#viber"></use>
+                        </svg>
+                    </a>
+                </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+                <p class="append-buttons">
+                    <a href="#" class="slide-1 learn-more hidden-btn">
+                        <span class="circle" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                        </span>
+                       <span class="btn-text">Мойка окон и остеклений</span>
+                    </a>
+                    <a href="#" class="slide-2 learn-more">
+                        <span class="circle" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                        </span>
+                       <span class="btn-text">Мойка витрин и вывесок</span>
+                    </a>
+                </p>
+            </div>
+        </section>
+    </main>
+    
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/main.min.js"></script>    
+</body>
+</html>
